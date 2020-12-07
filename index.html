@@ -9,11 +9,12 @@
   <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
 </head>
 <body>
-  <input type="text" id="cep" placeholder="Digite os nº do seu CEP">
-  <button type="button" onclick="consultaCep()">Consultar</button>
-  <p id="logradouro"></p>
-  <p id="bairro"></p>
-  <p id="localidade"></p>
-  <p id="uf"></p>
+  <nav class="navbar navbar-dark bg-dark">
+    <a href="" class="navbar-brand text-white">Consultar CEP</a>
+    <div class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Digite o CEP" id="cep">
+      <button class="btn btn-outline-success my-2 my-sm-0" onclick="consultaCep()">Buscar</button>
+    </div>
+  </nav>
 </body>
 </html>
